@@ -1,0 +1,216 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  background: #F9F9F9;
+}
+
+/*cebeçalho*/
+
+header{
+  width: 100%;
+}
+
+.promo{
+  width: 100%;
+  height: 60px;
+  background: #00AEFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.promo p{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-align: center;
+}
+
+.title{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.title p{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.banner{
+  width: 100%;
+  height: 378px;
+  background-image: url("../imgs/wallpaper.jpeg");
+  background-size: cover;
+  background-position: 30% 45%;
+}
+
+.sub-banner{
+  width: 100%;
+  height: 378px;
+  background-image: url("../imgs/filtroG.png");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  background-size: cover;
+  background-position: 30% 45%;
+}
+
+.banner-text{
+  max-width: 1800px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-content: space-around;
+}
+
+.title-banner{
+  font-family: Montserrat;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: left;
+  color: #F9F9F9;
+  margin-bottom: 15px;
+}
+
+.sub-title-banner{
+  font-family: Montserrat;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: left;
+  color: #F9F9F9;
+}
+
+/*Conteudo*/
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  margin: auto;
+  max-width: 1800px;
+}
+
+.destaque{
+  width: 90%;
+  height: 100px;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+
+.text-destaque{
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.text-sub-destaque{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #474747;
+}
+
+.div-box-shoes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  padding: 15px;
+}
+
+.div-img-shoes{
+  width: 415px;
+  height: 302px;
+  top: 712px;
+  left: 1405px;
+  background: #EBE9EA;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px #13131F0D;
+}
+
+.div-img-shoes:hover{
+  box-shadow: 0px 0px 15px lightgray;
+}
+
+.shoes{
+  width: 250px;
+  height: 150px;
+  top: 788px;
+  left: 1053px;
+}
+
+footer{
+  background: #00AEFF;
+  text-align: center;
+  color: #181818;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+@media(max-width: 1350px){
+  .banner-text{
+    max-width: 850px;
+  }
+}
+
+@media(max-width: 905px){
+  .banner-text{
+    max-width: 400px;
+  }
+  .destaque{
+    max-width: 400px;
+  }
+  
+}
+
+@media(max-width: 600px){
+  .title-banner{
+    font-size: 34px;
+    margin-bottom: 15px;
+  }
+  
+  .sub-title-banner{
+    font-size: 26px;
+  }
+}
