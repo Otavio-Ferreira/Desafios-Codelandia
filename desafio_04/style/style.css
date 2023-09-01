@@ -1,0 +1,243 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/font/Merriweather-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Laboto';
+  src: url('../fonts/font/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/font/Lato-Bold.ttf');
+}
+
+/* Globais */
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  width: 100%;
+  background: #FFFFFF;
+}
+
+main{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.container{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Div da imagem */
+
+.div-imagem{
+  background: #F7FAFC;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.div-imagem img{
+  width: 400px;
+}
+
+/*  Div do forulaário */
+
+.div-form{
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.sub-container{
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.sub-container-form{
+  margin-bottom: 80px;
+}
+
+.form-header{
+  margin-left: 15px;
+}
+
+.form-div{
+  width: 350px; 
+  margin-bottom: 10px;
+}
+
+.text-form{
+  font-family: Merriweather;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #1A202C;
+
+}
+
+.title-form{
+  font-family: Merriweather;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: left;
+  color: #1A202C;
+}
+
+.form-elements{
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin: 10px;
+}
+
+.label{
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #1A202C;
+  margin-bottom: 10px;
+}
+
+.input{
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  background: #E8E8E8;
+  border: 1px solid #E8E8E8;
+  padding-left: 15px;
+}
+
+.input::placeholder{
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1A202C;
+}
+
+.input:focus{
+  box-shadow: 0px 0px 3px #1A202C;
+  outline: 0;
+}
+
+.input-radio{
+  width: 18px;
+  height: 18px;
+  background-color: #f5f5f5;
+  border: 1px solid #1A202C;
+  cursor: pointer;
+}
+
+.label-radio{
+  margin: 0%;
+  margin-left: 5px;
+}
+
+.elements-opcoes{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-opcoes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.link-opcoes{
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2B6CB0;
+  text-decoration: none;
+}
+
+.btn-submit{
+  width: 100%;
+  height: 50px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-submit:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+.btn-enviar{
+  background: #04C35C;
+}
+
+.btn-google{
+  margin-top: 10px;
+  background: #1A202C;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.btn-google img{
+  margin-right: 10px;
+}
+
+.criar-conta{
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: linear-gradient(0deg, #1A202C, #1A202C);
+  margin-bottom: 30px;
+}
+
+.criar-conta-link{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: linear-gradient(0deg, #2B6CB0, #2B6CB0);
+  text-decoration: none;
+}
+
+/* Responsividade */
+
+@media(max-width: 850px){
+  main{
+    justify-content: center;
+  }
+
+  .div-imagem{
+    display: none;
+  }
+}
