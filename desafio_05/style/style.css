@@ -73,6 +73,8 @@ header{
 }
 
 .sub-title{
+  max-width: 500px;
+  min-width: 300px;
   font-family: Poppins;
   font-size: 20px;
   font-weight: 700;
@@ -84,6 +86,8 @@ header{
 }
 
 .title{
+  max-width: 500px;
+  min-width: 300px;
   font-family: Poppins;
   font-size: 68px;
   font-weight: 900;
@@ -91,7 +95,25 @@ header{
   text-align: left;
   color: #F9F9F9;  
   margin-bottom: 20px;
-  animation: zoomInRight 1s;
+  cursor: text;
+}
+
+.title:after{
+  content: '|';
+  margin-left: 10px;
+  animation: digitando .75s infinite;
+}
+
+
+@keyframes digitando{
+  0%, 100%
+  {
+    opacity: 1;
+  }
+  50%
+  {
+    opacity: 0;
+  }
 }
 
 @keyframes digitar{

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,5 +40,18 @@
       </div>
     </div>
   </main>
+  <script>
+    const title = document.querySelector('.title');
+    efeitoDigitar(title);
+    function efeitoDigitar(elemento){
+      
+      const elementoLetras = elemento.innerText.split('');
+      elemento.innerText = '';
+
+      elementoLetras.forEach((letra, id) => {
+        setTimeout(() => { elemento.innerText += letra}, 100*id)
+      })
+    }
+  </script>
 </body>
 </html>
