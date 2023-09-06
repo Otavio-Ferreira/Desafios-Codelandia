@@ -1,0 +1,154 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(150deg, #0F1923 55%, #FF4655 45%);
+  background-repeat: no-repeat;
+  animation: fadeIn;
+  animation-duration: 1s;
+}
+
+/* Main */
+
+.container{
+  justify-content: space-between;
+}
+
+.sub-container{
+  width: 45%;
+}
+
+.div-logotype{
+  display: flex;
+  animation: zoomInLeft;
+  animation-duration: 1s;
+}
+
+.div-personagens{
+  justify-content: space-between;
+  animation: zoomInRight;
+  animation-duration: 1s;
+}
+
+.card{
+  width: 170px;
+  height: 170px;
+  border:  solid 0.5px #FFFFFF;
+  color: #FFFFFF;
+  background-color: transparent;
+  border-radius: 15px 0px 0px 0px;
+}
+
+.card img{
+  width: 160px;
+  height: 160px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border: solid 0.5px #FFFFFF;
+  background-color: #FF4655;
+  border-radius: 15px 0px 0px 0px;
+}
+
+.card p{
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.card-share{
+  display: none;
+}
+.card-share img{
+  width: 30px;
+}
+.div-img-max{
+  display: flex;
+  animation: zoomInUp;
+  animation-duration: 1s;
+}
+
+#img-max{
+  width: 550px;
+}
+
+
+/* Responsivo */
+
+@media(max-width: 1400px){
+  .card{
+    width: 140px;
+    height: 140px;
+  }
+  .card img{
+    width: 140px;
+    height: 140px;
+  }
+  #img-max{
+    width: 500px;
+  }
+}
+
+@media(max-width: 1030px){
+  body{
+    background-image: linear-gradient(120deg, #0F1923 50%, #FF4655 50%);
+    height: auto;
+  }
+
+  .container{
+    justify-content: center;
+    width: 80%;
+  }
+
+  .sub-container{
+    width: 40%;
+  }
+
+  .div-logotype{
+    display: none;
+  }
+
+  .div-personagens{
+    justify-content: center;
+  }
+  
+  .card{
+    width: 170px;
+    height: 170px;
+    margin-bottom: 80px;
+  }
+  .card img{
+    width: 170px;
+    height: 170px;
+  }
+
+  .div-img-max{
+    display: none;
+  }
+
+  #share{
+    display: none;
+  }
+
+  .card-share{
+    width: 170px;
+    height: 80px;
+    display: flex;
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width: 400px){
+  .container{
+    width: 80%;
+  }
+
+  .sub-container{
+    width: 100%;
+  }
+}
