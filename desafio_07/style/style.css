@@ -10,6 +10,11 @@ body{
   background-repeat: no-repeat;
   animation: fadeIn;
   animation-duration: 1s;
+  overflow-x: hidden;
+}
+
+.div-body{
+  max-width: 2000px;
 }
 
 /* Main */
