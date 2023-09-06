@@ -14,7 +14,7 @@ desafio 04: https://otavio-ferreira.github.io/Desafios-Codelandia/desafio_04/
 desafio 05: https://otavio-ferreira.github.io/Desafios-Codelandia/desafio_05/
 
 
- ## Primeira parte: inicia a partir do desafio 06, onde além de utilizar HTML e CSS, tembém utilizei Bootstrap, e a biblioteca Animate.style para animações. A seguir acesse o Gitihu Pages de cada desafio e veja o deploy das interfaces:
+ ## Segunda parte: inicia a partir do desafio 06, onde além de utilizar HTML e CSS, tembém utilizei Bootstrap, e a biblioteca Animate.style para animações. A seguir acesse o Gitihu Pages de cada desafio e veja o deploy das interfaces:
 
  desafio 06: https://otavio-ferreira.github.io/Desafios-Codelandia/desafio_06/
 
