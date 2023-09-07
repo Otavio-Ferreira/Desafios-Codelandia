@@ -19,3 +19,5 @@ desafio 05: https://otavio-ferreira.github.io/Desafios-Codelandia/desafio_05/
  desafio 06: https://otavio-ferreira.github.io/Desafios-Codelandia/desafio_06/
 
 desafio 07: https://otavio-ferreira.github.io/Desafios-Codelandia/desafio_07/
+
+desafio 08: https://otavio-ferreira.github.io/Desafios-Codelandia/desafio_08/
