@@ -1,0 +1,199 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  width: 100%;
+  background: #F9F9F9;
+}
+
+/* Cabecalho */
+
+header{
+  height: 80px;
+}
+
+.sub-container-header{
+  height: 50px;
+}
+
+.title-logo{
+  font-family: Lora;
+  font-size: 32px;
+  font-weight: 700;
+  color: #2F2F2F;
+  margin-top: 10px;
+}
+
+.btn{
+  min-width: 60px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2F2F2F;
+  margin-left: 30px;
+}
+
+.profile{
+  display: none;
+}
+
+/* Conteudo principal */
+
+main{
+  justify-content: space-between;
+}
+
+.sub-container-main{
+  width: 150px;
+}
+
+.sub-container-main-img{
+  margin-bottom: 300px;
+  display: flex;
+}
+
+.sub-container-main-center{
+  width: 800px;
+  height: 700px;
+  background-color: #F9F9F9;
+}
+
+.sub-container-main-center p{
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  color: #2F2F2F;
+  animation: zoomIn 1s;
+}
+
+.sub-container-main-center h1{
+  font-family: Lora;
+  font-size: 64px;
+  font-weight: 700;
+  color: #2F2F2F;
+  animation: zoomIn 1s;
+}
+
+.btn-main{
+  width: Hug (272px);
+  height: Hug (59px);
+  padding: 15px 48px 15px 48px;
+  border-radius: 6px;
+  gap: 12px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.div-img-centro{
+  display: flex;
+}
+
+.emoji{
+  animation: pulse 3s infinite;
+  
+}
+
+/* Rodape */
+
+footer{
+  background: #F2F2F2;
+  margin-top: 40px;
+}
+
+.sub-container-footer{
+  width: 50%;
+  padding: 50px 30px;
+}
+
+.sub-container-footer div{
+  width: 3px;
+  height: 30px;
+  background: #6610F2;
+}
+
+.p1{
+  font-family: Lora;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2F2F2F;
+}
+
+.p2{
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  color: #2F2F2F;  
+}
+
+/* Layout responsivo */
+
+@media(max-width: 1200px){
+  main{
+    justify-content: center;
+  }
+  .sub-container-main{
+    display: none;
+  }
+  .div-img-centro{
+    display: none;
+  }
+  .sub-container-main-center{
+    width: 100%;
+    height: 600px;
+  }
+}
+@media(max-width: 775px){
+  body{
+    padding: 10px;
+  }
+
+  header{
+    margin-top: 5px;
+    height: 50px;
+  }
+
+  .profile{
+    display: block;
+  }
+
+  .login{
+    display: none;
+  }
+
+  .sub-container-main-center{
+    height: 500px;
+  }
+    
+  .sub-container-main-center p{
+    font-size: 20px;
+  }
+
+  .sub-container-main-center h1{
+    font-size: 48px;
+  }
+
+  .btn-main{
+    width: 100%;
+    height: 55px;
+    gap: 0px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .btn{
+    margin-left: 10px;
+  }
+
+  footer{
+    margin-top: 0px;
+  }
+  
+  .sub-container-footer{
+    width: 100%;
+    padding: 40px 20px;
+  }
+}
