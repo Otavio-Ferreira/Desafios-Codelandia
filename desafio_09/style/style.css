@@ -296,6 +296,11 @@ footer{
 /* Desinge responsivo */
 
 @media(max-width: 1000px){
+  section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .section-type-one{
     justify-content: center;
   }
@@ -307,6 +312,14 @@ footer{
   .div-text-image{
     justify-content: center;
     text-align: center;
+  }
+
+  .div-text-image h1{
+    font-size: 30px;
+  }
+
+  .div-text-image p{
+    font-size: 16px;
   }
 
   .div-btns{
@@ -324,6 +337,11 @@ footer{
 
   .drop{
     display: block;
+  }
+
+  h2{
+    margin-top: 50px;
+    font-size: 28px;
   }
   
 }
