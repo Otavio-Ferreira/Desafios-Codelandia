@@ -1,0 +1,329 @@
+@font-face {
+  font-family: DM Sans;
+  src: url("../fonts/DMSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: DM Sans;
+  src: url("../fonts/DMSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: DM Sans;
+  src: url("../fonts/DMSans-Bold.ttf");
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  width: 100%;
+  background: linear-gradient(0deg, #171717, #171717),
+  linear-gradient(0deg, #333333, #333333);
+}
+
+
+/* Cabecalho */
+
+header{
+  margin-bottom: 50px;
+}
+
+.title{
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.div-menu{
+  display: flex;
+  width: 500px;
+}
+
+.item-menu{
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.item-menu:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.drop{
+  display: none;
+}
+
+.drop img{
+  width: 45px;
+  cursor: pointer;
+}
+
+/* Conteudo principal */
+
+  /* Primeira section */
+section{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.section-type-one{
+  justify-content: space-between;
+}
+
+.div-text-image{
+  display: flex;
+  justify-content: start;
+  width: 400px;
+  height: 255px;
+  display: flex;
+}
+
+.div-text-image h1{
+  font-family: DM Sans;
+  font-size: 36px;
+  font-weight: 700;
+  color: #F9F9F9;
+}
+
+
+#nome:after{
+  content: '|';
+  margin-left: 10px;
+  animation: digitando .75s infinite;
+}
+
+@keyframes digitando{
+  0%, 
+  100%{opacity: 1;}
+  50% {opacity: 0;}
+}
+
+.div-text-image p{
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  color: #828282;
+}
+
+.div-btns{
+  width: 100%;
+  justify-content: start;
+}
+
+.btn{
+  width: 145px;
+  height: 40px;
+  margin-right: 10px;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn1{
+  color: #171717;
+  background: #00DF5E;
+}
+
+.btn2{
+  background: linear-gradient(0deg, #171717, #171717),
+  linear-gradient(0deg, #333333, #333333);
+  color: #F9F9F9;
+  border: 1px solid #333333
+}
+
+  /*Segunda section */
+
+.div-section{
+  width: 1000px;
+  margin-top: 50px;
+}
+
+.about-title{
+  width: 750px;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-weight: 700;
+  color: #F9F9F9;
+}
+
+.about-p{
+  width: 750px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  color: #828282;
+}
+
+.card-about{
+  width: 150px;
+}
+
+.div-card-img{
+  width: 60px;
+  height: 60px;
+  background: #212121;
+  border-radius: 100px;
+}
+
+.card-about-title{
+  width: 100px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  color: #F9F9F9;  
+}
+
+.card-about-value{
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #828282;  
+}
+
+  /* Terceira section */
+
+h2{
+  margin-top: 130px;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #F9F9F9;
+}
+
+.card-projetos{
+  width: 370px;
+  height: 240px;
+  margin: 30px;
+  background: linear-gradient(0deg, #212121, #212121),
+  linear-gradient(0deg, #333333, #333333);
+  border: 1px solid #333333;
+}
+
+.div-card-projetos-img{
+  width: 100%;
+  height: 130px;
+  background: linear-gradient(0deg, #171717, #171717),
+  linear-gradient(0deg, #333333, #333333);
+  border: 1px solid #333333;    
+}
+
+.div-card-projetos-text{
+  width: 100%;
+  height: 60px;
+}
+
+.projetos-title{
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.projetos-descricao{
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  color: #828282;  
+}
+
+  /* Quarta section */
+
+.card-servico{
+  width: 370px;
+  height: 240px;
+  margin: 30px;
+  background: linear-gradient(0deg, #212121, #212121),
+  linear-gradient(0deg, #333333, #333333);
+  border: 1px solid #333333;
+  border-bottom: solid 5px #00DF5E;
+}
+
+.div-card-servico-img{
+  width: 100%;
+  height: 100px;
+}
+
+.div-card-servico-text{
+  width: 100%;
+  height: 100px;
+}
+
+.servico-title{
+  font-family: DM Sans;
+  font-size: 32px;
+  font-weight: 500;
+  color: #828282;
+}
+
+  /* Quinta section */
+
+.card-skills{
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(0deg, #212121, #212121),
+  linear-gradient(0deg, #333333, #333333);
+  border: 1px solid #333333;
+  margin: 30px;
+}
+
+/* footer */
+
+footer{
+  background: #212121;
+}
+
+.footer-p{
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  color: #F9F9F9;
+}
+
+.footer-p span{
+  font-weight: 400;
+  color: #00DF5E;
+}
+
+/* Desinge responsivo */
+
+@media(max-width: 1000px){
+  .section-type-one{
+    justify-content: center;
+  }
+  
+  .div-image{
+    display: none;
+  }
+
+  .div-text-image{
+    justify-content: center;
+    text-align: center;
+  }
+
+  .div-btns{
+    justify-content: center;
+  }
+
+  .div-section{
+    width: 380px;
+    margin-top: 50px;
+  }
+
+  .div-menu{
+    display: none;
+  }
+
+  .drop{
+    display: block;
+  }
+  
+}
