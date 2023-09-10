@@ -343,5 +343,15 @@ footer{
     margin-top: 50px;
     font-size: 28px;
   }
+
+  .card-skills{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+  }
+
+  .card-skills img{
+    width: 140%;
+  }
   
 }
