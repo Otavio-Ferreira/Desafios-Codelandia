@@ -1,0 +1,29 @@
+@font-face {
+  font-family: LexendDeca;
+  src: url("../font/LexendDeca-Regular.ttf");
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../font/Inter-Regular.ttf");
+}
+
+:root{
+
+  --brand: #8257E6;
+  --dark10: #13131F;
+  --dark20: #282830;
+  --dark30: #C4C4C4;
+  --dark40: #FEFBFB;
+  --lexendDeca: LexendDeca;
+  --inter: Inter; 
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  background-color: var(--dark10);
+}

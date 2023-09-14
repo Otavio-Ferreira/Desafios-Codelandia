@@ -1,0 +1,43 @@
+header{
+  max-width: 1200px;
+  min-width: 370px;
+}
+
+header div{
+  height: 100%;
+}
+
+.naped{
+  font-family: var(--lexendDeca);
+  color: var(--brand);
+  font-size: 24px;
+  font-weight: 400;
+  text-align: right;
+  text-decoration: none;
+}
+
+.header-a{
+  font-family: Inter;
+  color: var(--dark40);
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 100px;
+  text-decoration: none;
+  height: 20px;
+}
+
+.btn-header{
+  height: 30px;
+  padding: 5px 20px 5px 20px;
+  color: var(--dark40);
+  border: solid 1px var(--brand);
+  border-radius: 20px;
+  font-family: var(--lexendDeca);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header-a:hover{
+  text-decoration: underline;
+  color: var(--dark40);
+}

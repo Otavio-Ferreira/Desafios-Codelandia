@@ -1,0 +1,383 @@
+.container{
+  max-width: 1200px;
+}
+/* Cabeçalho do main, primeiro article do main */
+
+.div-article-header{
+  max-width: 500px;
+  margin-top: 100px;
+}
+
+.div-article-header h1{
+  width: 400px;
+  font-family: var(--LexendDeca);
+  color: var(--dark40);
+  font-size: 48px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.div-article-header p{
+  font-family: var(--Inter);
+  color: var(--dark30);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 10px;
+}
+
+/* Segundo artigo do main */
+
+.box-padrao{
+  background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%);
+  width: 340px;
+  height: 165px;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: space-between;
+  padding: 10px;
+
+}
+
+.btn-padrao{
+  width: 70px;
+  height: 20px;
+  border-radius: 3px;
+  font-family: var(--LexendDeca);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--dark40);
+  background-color: var(--brand);
+  border: none;
+}
+
+
+.p-padrao{
+  font-family: var(--LexendDeca);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--dark40);
+}
+
+.sub-article-one{
+  height: 350px;
+}
+
+.sub-article-left{
+  width: 700px;
+}
+
+.sub-article-right{
+  width: 340px;
+}
+
+.div-padrao-banner{
+  width: 761px;
+  height: 350px;
+  background-image: url("../image/02.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner{
+  width: 761px;
+  height: 350px;
+}
+
+.banner button{
+  width: 80px;
+  height: 25px;
+}
+
+.banner p{
+font-size: 24px;
+font-weight: 400;
+text-align: left;
+line-height: 36px;
+}
+
+.box-1{
+  background: url("../image/01.png");
+  background-size: cover;
+  background-position: center center;
+  width: 340px;
+  height: 165px;
+}
+
+.box-2{
+  background: url("../image/07.png");
+  background-size: cover;
+  background-position: center center;
+  width: 340px;
+  height: 165px;
+}
+
+
+/* Terceiro article do main */
+ /* scroll barra de rolagem */
+
+.sub-article-two{
+  height: 880px;
+}
+
+.sub-article-two::-webkit-scrollbar{
+  width: 12px;
+}
+
+.sub-article-two::-webkit-scrollbar-track{
+  background-color: var(--dark20);
+  
+}
+
+.sub-article-two::-webkit-scrollbar-thumb{
+  background-color: var(--brand);
+  width: 8px;
+  height: 350px;
+}
+
+.aside{
+  width: 760px;
+  overflow-y: scroll
+}
+
+.box-padrao-periferico-left{
+  width: 200px;
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.box-text-periferico-left{
+  width: 400px;
+  height: 150px;
+  margin-left: 10px;
+}
+
+.text-p-p1{
+  font-family: var(--LexendDeca);
+  color: var(--dark40);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  
+}
+
+.text-p-p2{
+  font-family: var(--Inter);
+  color: var(--dark30);
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  
+}
+
+.text-p-data{
+  font-family: var(--Inter);
+  color: var(--dark30);
+  font-size: 10px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.text-p-btn{
+  width: 100px;
+  height: 25px;
+  border-radius: 3px;
+  background: var(--brand);
+  color: var(--dark40);
+  font-family: Inter;
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 20px;
+  border: none;
+}
+
+.box-3{
+  width: 200px;
+  height: 150px;
+  background: url("../image/16.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.box-4{
+  width: 200px;
+  height: 150px;
+  background: url("../image/15.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.box-5{
+  width: 200px;
+  height: 150px;
+  background: url("../image/09.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.box-6{
+  width: 200px;
+  height: 150px;
+  background: url("../image/05.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.box-7{
+  width: 200px;
+  height: 150px;
+  background: url("../image/14.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+  /* Div da esquerda */
+
+.sub-title{
+  color: var(--dark40);
+  font-family: var(--LexendDeca);
+  border-bottom: solid 3px var(--brand);
+  max-width: 250px;
+  min-width: 220px;
+  height: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.box-padrao-periferico-right{
+  width: 338px;
+  height: 250px;
+  margin-bottom: 40px;
+}
+
+.box-8{
+  width: 338px;
+  height: 250px;
+  background: url("../image/03.png");
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 50px;
+}
+
+.box-9{
+  width: 338px;
+  height: 250px;
+  background: url("../image/06.png");
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 50px;
+}
+
+.box-10{
+  width: 338px;
+  height: 250px;
+  background: url("../image/11.png");
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 50px;
+}
+
+/* Quarto article / Recenetes */
+
+.sub-title-recentes{
+  margin-top: 100px;
+}
+
+.box-padrao-recentes{
+  width: 338px;
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+.box-padrao-recentes p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+
+.box-11{
+  background: url("../image/17.png");
+  background-size: cover;
+  background-position: center center;
+  width: 338px;
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+.box-12{
+  background: url("../image/10.png");
+  background-size: cover;
+  background-position: center center;
+  width: 338px;
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+.box-13{
+  background: url("../image/19.png");
+  background-size: cover;
+  background-position: center center;
+  width: 338px;
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+.box-14{
+  background: url("../image/13.png");
+  background-size: cover;
+  background-position: center center;
+  width: 338px;
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+.box-15{
+  background: url("../image/20.png");
+  background-size: cover;
+  background-position: center center;
+  width: 338px;
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+.box-16{
+  background: url("../image/04.png");
+  background-size: cover;
+  background-position: center center;
+  width: 338px;
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+
+/* Rodapé */
+
+.title-footer{
+  width: 100%;
+  height: 30px;
+  font-family: var(--LexendDeca);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--brand);
+}
+
+.sub-title-footer{
+  width: 500px;
+  height: 50px;
+  font-family: var(--Inter);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--dark30);
+}
+
+/* Responsividade */
