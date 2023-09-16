@@ -10,16 +10,32 @@
     <link rel="stylesheet" href="style/styleHeader.css">
   </head>
   <body>
-    <header class="container d-flex flex-wrap justify-content-between aling-content-center aling-items-center pt-3 pb-3">
-      <div>
-        <a href="#" class="naped">Naped</a>
+    <header class="container flex-wrap justify-content-between aling-content-center aling-items-center pt-3 pb-3">
+      <div class="d-flex flex-wrap justify-content-between aling-content-center align-items-center div-header-sup">
+        <div>
+          <a href="#" class="naped">Naped</a>
+        </div>
+        <div class="dropdown drop">
+          <a class="d-flex flex-wrap justify-content-end aling-content-center align-items-center" data-bs-toggle="dropdown">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list img-drop" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </a>
+          <ul class="dropdown-menu bg-dark">
+            <li><a class="dropdown-item text-white" href="#about">Home</a></li>
+            <li><a class="dropdown-item text-white" href="#projects">Series</a></li>
+            <li><a class="dropdown-item text-white" href="#services">Filmes</a></li>
+            <li><a class="dropdown-item text-white" href="#skills">Animes</a></li>
+            <li><a class="dropdown-item text-white" href="#skills">Games</a></li>
+          </ul>
+        </div>
       </div>
       <div>
-        <a href="#" class="header-a">Home</a>
-        <a href="#" class="header-a">Series</a>
-        <a href="#" class="header-a">Filmes</a>
-        <a href="#" class="header-a">Animes</a>
-        <a href="#" class="header-a">Games</a>
+        <a href="#" class="home a">Home</a>
+        <a href="#" class="header-a a">Series</a>
+        <a href="#" class="header-a a">Filmes</a>
+        <a href="#" class="header-a a">Animes</a>
+        <a href="#" class="header-a a">Games</a>
         <a href="#" class="header-a btn btn-outline btn-header">Minha Conta</a>
       </div>
     </header>
@@ -30,14 +46,14 @@
           <p>O Naped pode ser sua fonte de informações sobre o mundo nerd e outros assuntos relacionados.</p>
         </div>
       </article>
-      <article class="container d-flex flex-wrap justify-content-between aling-content-center p-0 mt-5">
+      <article class="container d-flex flex-wrap aling-content-center p-0 mt-5 article-01">
         <div class="sub-article-one sub-article-left div-padrao-banner">
           <div class="box-padrao banner">
             <button class="btn-padrao">Loren</button>
             <p class="p-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor.</p>
           </div>
         </div>
-        <div class="sub-article-one sub-article-right d-flex flex-wrap justify-content-center aling-content-between">
+        <div class="sub-article-one sub-article-right sub-none-01 flex-wrap aling-content-between">
           <div class=" box-1">
             <div class="box-padrao">
               <button class="btn-padrao">Loren</button>
@@ -120,7 +136,7 @@
             </div>
           </div>
         </aside>
-        <div class="sub-article-two sub-article-right">
+        <div class="sub-article-two sub-article-right sub-none-02">
           <h2 class="sub-title">Lorem ipsum dolor</h2>
           <div class="box-periferico-right">
             <div class="box-8">
@@ -145,7 +161,7 @@
         </div>
       </article>
       <h2 class="sub-title sub-title-recentes">Notícias mais recentes</h2>
-      <article class="container d-flex flex-wrap justify-content-between aling-content-center p-0 mt-5">
+      <article class="container article-04 d-flex flex-wrap aling-content-center p-0 mt-5">
         <div class="box-11">
           <div class="box-padrao box-padrao-recentes">
             <button class="btn-padrao">Loren</button>
