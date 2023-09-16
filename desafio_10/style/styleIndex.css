@@ -559,7 +559,6 @@ line-height: 36px;
     height: 100px;
   }
 
-  /*caso precise se nao excuir <---------------------------*/
   .aside{
     max-width: 760px;
     overflow-y: scroll
@@ -673,7 +672,7 @@ line-height: 36px;
   }
   
   .box-14{
-    height: 100%;
+    width: 100%;
     margin-bottom: 30px;
   }
   
