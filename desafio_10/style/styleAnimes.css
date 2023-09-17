@@ -1,0 +1,264 @@
+.container{
+  max-width: 1200px;
+}
+
+/* Cabecalho */
+
+.animes{
+  border-bottom: solid 3px var(--brand);
+  color: var(--dark40);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 100px;
+  text-decoration: none;
+  height: 20px;
+}
+
+.animes:hover{
+  color: var(--dark30);
+}
+
+/* Primeiro artigo */
+
+article{
+  margin-top: 100px;
+}
+
+.div-banner{
+  max-width: 100%;
+  height: 300px;
+  background: url("../image/12.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.div-banner-text{
+  max-width: 100%;
+  height: 300px;
+  background: linear-gradient(to right, #13131F 0.01%, rgba(19, 19, 31, 0) 99.99%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.banner-p1{
+  width: 100%;
+  font-family: var(--LexendDeca);
+  color: var(--dark40);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  margin-left: 20px;
+}
+
+.banner-p2{
+  max-width: 500px;
+  font-family: var(--Inter);
+  color: var(--dark40);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-left: 20px;
+}
+
+.div-pesquisa{
+  height: 60px;
+  background-color: var(--dark20);
+  margin-top: 40px;
+}
+
+.div-pesquisa input{
+  height: 50px;
+  width: 90%;
+  background-color: transparent;
+  border: none;
+  color: #989898;
+  font-family: var(--LexendDeca);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-left: 5px;
+}
+
+input::placeholder{
+  opacity: 50%;
+  padding-left: 10px;
+}
+input:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.div-pesquisa svg{
+  width: 5%;
+  margin-right: 5px;
+  height: 30px;
+  color: #989898;
+  cursor: pointer;
+}
+
+/*Sengun article*/
+
+.box-div-padrao{
+  justify-content: space-between;
+}
+
+.box-padrao{
+  background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%);
+  width: 338px;
+  height: 250px;
+  margin-bottom: 80px;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: space-between;
+  padding: 10px;
+}
+
+.btn-padrao{
+  width: 70px;
+  height: 20px;
+  border-radius: 3px;
+  font-family: var(--LexendDeca);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--dark40);
+  background-color: var(--brand);
+  border: none;
+}
+
+
+.p-padrao{
+  font-family: var(--LexendDeca);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--dark40);
+}
+
+.p-padrao:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.box-1{
+  background: url("../image/17.png");
+  background-size: cover;
+  background-position: center center;
+  width: 338px;
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+.box-2{
+  background: url("../image/08.png");
+  background-size: cover;
+  background-position: center center;
+  width: 338px;
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+.box-3{
+  background: url("../image/21.png");
+  background-size: cover;
+  background-position: center center;
+  width: 338px;
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+.page-link{
+  background-color: var(--dark20);
+  color: var(--dark40);
+  border: none;
+}
+
+.page-link:hover{
+  background-color: var(--dark10);
+  color: var(--dark40);
+}
+
+.box-none{
+  display: flex;
+}
+/* Rodapé */
+
+.title-footer{
+  width: 100%;
+  height: 30px;
+  font-family: var(--LexendDeca);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--brand);
+}
+
+.sub-title-footer{
+  width: 500px;
+  height: 50px;
+  font-family: var(--Inter);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--dark30);
+}
+
+/* Responsividade */
+
+@media(max-width: 1130px){
+  .container{
+    max-width: 760px;
+  }
+
+  .box-div-padrao{
+    justify-content: center;
+  }
+
+  .box-none{
+    display: none;
+  }
+
+  .box-padrao{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .box-1{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .box-2{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .box-3{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media(max-width: 760px){
+  .container{
+    max-width: 450px;
+  }
+
+  .div-banner-text{
+    align-content: flex-end;
+  }
+  
+  .banner-p1{
+    font-size: 24px;
+    line-height: 16px;
+  }
+  
+  .banner-p2{
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
