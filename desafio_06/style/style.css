@@ -59,6 +59,10 @@ body{
   align-content: space-between;
 }
 
+.div-estrelas img{
+  cursor: pointer;
+}
+
 /* Responsividade */
 
 @media (max-width: 770px) { 
@@ -106,6 +110,7 @@ body{
     margin: auto;
     font-size: 14px;
   }
+
   .div-sinopse{
     background: #19191F;
     width: 100%;
