@@ -94,14 +94,19 @@ body{
     width: 25px;
     height: 25px;
   }
+  
   .div-btns{
     background: #19191F;
     width: 100%;
     padding: 20px;
     border-radius: 30px 30px 0px 0px;
-    border-bottom: solid 2px #C4C4C414;
-;
   }
+
+  .sub-div-btns{
+    padding-bottom: 25px;
+    border-bottom: solid 2px #C4C4C414;
+  }
+
   .div-btns :nth-child(1) { order: 1; }
   .div-btns :nth-child(2) { order: 2; }
 
@@ -114,6 +119,6 @@ body{
   .div-sinopse{
     background: #19191F;
     width: 100%;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
   }
 }
